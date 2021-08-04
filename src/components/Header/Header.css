@@ -10,9 +10,24 @@
 .title {
     font-size: 7vw;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 900px) {
+    .header {
+        height: 25vh;
+    }
+
+    .title {
+        font-size: 11vw;
+    }
 }
 
 .inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
+.search, .select {
+    width: 43%;
 }
